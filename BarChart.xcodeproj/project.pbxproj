@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14CCC2C10B58F0F452E1C2C9 /* libPods-BarChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C247BAA74363E610A816B4 /* libPods-BarChart.a */; };
 		7AB43A981EF7AD800063B23C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43A971EF7AD800063B23C /* main.m */; };
 		7AB43A9B1EF7AD800063B23C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43A9A1EF7AD800063B23C /* AppDelegate.m */; };
 		7AB43A9E1EF7AD800063B23C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43A9D1EF7AD800063B23C /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		7AB43AA61EF7AD800063B23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB43AA41EF7AD800063B23C /* LaunchScreen.storyboard */; };
 		7AB43AB11EF7AD810063B23C /* BarChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43AB01EF7AD810063B23C /* BarChartTests.m */; };
 		7AB43ABC1EF7AD810063B23C /* BarChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43ABB1EF7AD810063B23C /* BarChartUITests.m */; };
+		7AB43AD01EF7AE5D0063B23C /* LCBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43ACB1EF7AE5D0063B23C /* LCBar.m */; };
+		7AB43AD11EF7AE5D0063B23C /* LCBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43ACD1EF7AE5D0063B23C /* LCBarChart.m */; };
+		7AB43AD21EF7AE5D0063B23C /* LCDetailBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43ACF1EF7AE5D0063B23C /* LCDetailBarChart.m */; };
+		7AB43AD51EF7AFAC0063B23C /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43AD41EF7AFAC0063B23C /* Tool.m */; };
+		7AB43AD91EF7B5FD0063B23C /* NSString+Changeformat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB43AD81EF7B5FD0063B23C /* NSString+Changeformat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,20 @@
 		7AB43AB71EF7AD810063B23C /* BarChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB43ABB1EF7AD810063B23C /* BarChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarChartUITests.m; sourceTree = "<group>"; };
 		7AB43ABD1EF7AD810063B23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB43ACA1EF7AE5D0063B23C /* LCBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBar.h; sourceTree = "<group>"; };
+		7AB43ACB1EF7AE5D0063B23C /* LCBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBar.m; sourceTree = "<group>"; };
+		7AB43ACC1EF7AE5D0063B23C /* LCBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBarChart.h; sourceTree = "<group>"; };
+		7AB43ACD1EF7AE5D0063B23C /* LCBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBarChart.m; sourceTree = "<group>"; };
+		7AB43ACE1EF7AE5D0063B23C /* LCDetailBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDetailBarChart.h; sourceTree = "<group>"; };
+		7AB43ACF1EF7AE5D0063B23C /* LCDetailBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDetailBarChart.m; sourceTree = "<group>"; };
+		7AB43AD31EF7AFAC0063B23C /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		7AB43AD41EF7AFAC0063B23C /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		7AB43AD61EF7B3ED0063B23C /* BarChartHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarChartHeader.h; sourceTree = "<group>"; };
+		7AB43AD71EF7B5FD0063B23C /* NSString+Changeformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Changeformat.h"; sourceTree = "<group>"; };
+		7AB43AD81EF7B5FD0063B23C /* NSString+Changeformat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Changeformat.m"; sourceTree = "<group>"; };
+		8DEB4FC132E23BB7BAFE6222 /* Pods-BarChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarChart/Pods-BarChart.debug.xcconfig"; sourceTree = "<group>"; };
+		B5C247BAA74363E610A816B4 /* libPods-BarChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EA6AE67DB634B44652D990 /* Pods-BarChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarChart/Pods-BarChart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CCC2C10B58F0F452E1C2C9 /* libPods-BarChart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C377F885E7A055A520B818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5C247BAA74363E610A816B4 /* libPods-BarChart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7AB43A8A1EF7AD800063B23C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				7AB43AAF1EF7AD810063B23C /* BarChartTests */,
 				7AB43ABA1EF7AD810063B23C /* BarChartUITests */,
 				7AB43A941EF7AD800063B23C /* Products */,
+				9D71E2F0CE3C7BD1B3F86ED9 /* Pods */,
+				04C377F885E7A055A520B818 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +132,12 @@
 		7AB43A951EF7AD800063B23C /* BarChart */ = {
 			isa = PBXGroup;
 			children = (
+				7AB43AD61EF7B3ED0063B23C /* BarChartHeader.h */,
+				7AB43AC91EF7AE5D0063B23C /* LCBarChart */,
+				7AB43AD31EF7AFAC0063B23C /* Tool.h */,
+				7AB43AD41EF7AFAC0063B23C /* Tool.m */,
+				7AB43AD71EF7B5FD0063B23C /* NSString+Changeformat.h */,
+				7AB43AD81EF7B5FD0063B23C /* NSString+Changeformat.m */,
 				7AB43A991EF7AD800063B23C /* AppDelegate.h */,
 				7AB43A9A1EF7AD800063B23C /* AppDelegate.m */,
 				7AB43A9C1EF7AD800063B23C /* ViewController.h */,
@@ -140,6 +177,28 @@
 			path = BarChartUITests;
 			sourceTree = "<group>";
 		};
+		7AB43AC91EF7AE5D0063B23C /* LCBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				7AB43ACA1EF7AE5D0063B23C /* LCBar.h */,
+				7AB43ACB1EF7AE5D0063B23C /* LCBar.m */,
+				7AB43ACC1EF7AE5D0063B23C /* LCBarChart.h */,
+				7AB43ACD1EF7AE5D0063B23C /* LCBarChart.m */,
+				7AB43ACE1EF7AE5D0063B23C /* LCDetailBarChart.h */,
+				7AB43ACF1EF7AE5D0063B23C /* LCDetailBarChart.m */,
+			);
+			path = LCBarChart;
+			sourceTree = "<group>";
+		};
+		9D71E2F0CE3C7BD1B3F86ED9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DEB4FC132E23BB7BAFE6222 /* Pods-BarChart.debug.xcconfig */,
+				C4EA6AE67DB634B44652D990 /* Pods-BarChart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AB43AC01EF7AD810063B23C /* Build configuration list for PBXNativeTarget "BarChart" */;
 			buildPhases = (
+				0FEBC51F86F7FA8949F159CB /* [CP] Check Pods Manifest.lock */,
 				7AB43A8F1EF7AD800063B23C /* Sources */,
 				7AB43A901EF7AD800063B23C /* Frameworks */,
 				7AB43A911EF7AD800063B23C /* Resources */,
+				9B76814F3C06D55BFCAFC2C8 /* [CP] Embed Pods Frameworks */,
+				FF150A133D8A00168CEA20AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,13 +330,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FEBC51F86F7FA8949F159CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B76814F3C06D55BFCAFC2C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarChart/Pods-BarChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF150A133D8A00168CEA20AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarChart/Pods-BarChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AB43A8F1EF7AD800063B23C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7AB43A9E1EF7AD800063B23C /* ViewController.m in Sources */,
+				7AB43AD11EF7AE5D0063B23C /* LCBarChart.m in Sources */,
+				7AB43AD51EF7AFAC0063B23C /* Tool.m in Sources */,
+				7AB43AD21EF7AE5D0063B23C /* LCDetailBarChart.m in Sources */,
+				7AB43AD91EF7B5FD0063B23C /* NSString+Changeformat.m in Sources */,
 				7AB43A9B1EF7AD800063B23C /* AppDelegate.m in Sources */,
+				7AB43AD01EF7AE5D0063B23C /* LCBar.m in Sources */,
 				7AB43A981EF7AD800063B23C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +539,11 @@
 		};
 		7AB43AC11EF7AD810063B23C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DEB4FC132E23BB7BAFE6222 /* Pods-BarChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BarChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lcos.BarChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +552,11 @@
 		};
 		7AB43AC21EF7AD810063B23C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EA6AE67DB634B44652D990 /* Pods-BarChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BarChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lcos.BarChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +628,7 @@
 				7AB43AC21EF7AD810063B23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AB43AC31EF7AD810063B23C /* Build configuration list for PBXNativeTarget "BarChartTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +637,7 @@
 				7AB43AC51EF7AD810063B23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AB43AC61EF7AD810063B23C /* Build configuration list for PBXNativeTarget "BarChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +646,7 @@
 				7AB43AC81EF7AD810063B23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
