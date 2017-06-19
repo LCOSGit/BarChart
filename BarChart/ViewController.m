@@ -23,6 +23,16 @@ static NSString *topViewBG = @"3b7dd0";
     self.barChart.yValues = @[@"440", @"6", @"-300", @"283", @"490", @"236"];
     NSNumber *maxNum = [self.barChart.yValues valueForKeyPath:@"@max.intValue"];
     self.barChart.uniformNumber = maxNum.intValue ?:1;
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:@"开始" forState:UIControlStateNormal];
+    button.backgroundColor = HEX(topViewBG);
+    button.frame = CGRectMake((SCREEN_WIDTH - 100)/2, CGRectGetMaxY(self.barChart.frame) + 10, 100, 50);
+    [button addTarget:self action:@selector(strokeChart) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)strokeChart {
     [self.barChart strokeChart];
 }
 
